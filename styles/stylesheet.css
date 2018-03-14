@@ -26,6 +26,7 @@ nav {
 	position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
+    box-sizing: border-box;
     border-left: 9px solid hsl(45, 20%, 20%);
     border-bottom: 1px solid hsl(45, 20%, 75%);
     width: 100%;
@@ -124,3 +125,16 @@ nav a:active {
 	font-family: "Open-sans", sans-serif;
 	text-align: justify;
 }
+
+#resume {
+}
+
+#resume iframe {
+	display: block;
+	margin: 0 auto;
+    box-sizing: border-box;
+	width:80%;
+	min-width: 750px;
+	height: 1036px;
+}
+
