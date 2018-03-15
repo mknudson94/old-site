@@ -138,3 +138,75 @@ nav a:active {
 	height: 1036px;
 }
 
+#courses {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	font-family: "Corbel";
+}
+
+#courses img {
+	padding: 10px;
+}
+
+#gt div {
+	padding: 10px;
+	margin: 5px;
+}
+
+#byui div {
+	padding: 10px;
+	margin: 5px;
+}
+
+#courses ul {
+	list-style-type: none;
+}
+
+#courses li {
+	margin: 1px 0 1px 15px;
+	border-bottom: 1px solid hsl(45, 0%, 75%);
+	}
+
+#gt {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#gt-logo {
+	max-width: 300px;
+}
+
+#gt #a {
+	background-color: hsl(43, 46%, 58%)
+}
+
+#gt #b {
+	background-color: hsl(43, 46%, 68%)
+}
+
+#gt #c {
+	background-color: hsl(43, 46%, 78%)
+}
+
+#byui-logo {
+	max-width: 300px;
+	max-height: 140px;
+}
+
+#byui #a {
+	background-color: hsl(204, 46%, 58%)
+}
+
+#byui #b {
+	background-color: hsl(204, 46%, 68%)
+}
+
+#byui #c {
+	background-color: hsl(204, 46%, 78%)
+}
+
+#byui {
+	display: flex;
+	flex-direction: column;
+}
