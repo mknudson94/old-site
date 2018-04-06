@@ -210,3 +210,16 @@ nav a:active {
 	display: flex;
 	flex-direction: column;
 }
+
+#social-media {
+	position: fixed;
+	max-width: 42px;
+	left: 92%;
+	top: 70%;
+}
+
+#social-media img {
+	height: 38px;
+	width: 38px;
+	margin: 10px 0px;
+}
